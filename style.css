@@ -1,0 +1,24 @@
+/**
+    Template Name: Alhambra
+    Author: Per Thykjaer Jensen
+    Descripttion: For Multimusen.dk
+    Requires at least: 6.0
+    Licence: GNU General Public License v2 or later
+**/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Post link title color */
+.wp-block-post-title a {
+    color: rgb(221, 30, 205);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wp-site-blocks {
+    max-width: 783px;
+    margin-left: auto;
+    margin-right: auto;
+}

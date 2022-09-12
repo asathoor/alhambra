@@ -1,0 +1,61 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
+                },
+				{
+                    "name": "Flump",
+                    "slug": "Flump",
+                    "color": "#d155c6"
+                },
+				{
+                    "name": "Whitman Green",
+                    "slug": "Whitman",
+                    "color": "#a7ea9d"
+                }
+            ]
+        },
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamilies": [
+						{
+						"fontFamily": 	"Helvetica Neue, Helvetica, Arial, sans-serif",
+						"slug": 		"helvetica-arial",
+						"name": 		"Helvetica or Arial"
+						}
+					]
+				}
+			},
+			"core/paragraph": {
+				"typography": {
+					"fontFamilies": [
+						{
+						"fontFamily": 	"Helvetica Neue, Helvetica, Arial, sans-serif",
+						"slug": 		"helvetica-arial",
+						"name": 		"Helvetica or Arial"
+						}
+					]
+				}
+			}
+		}
+    },
+	"templateParts": [
+		{
+			"name": "Footer section",
+			"title": "Footer",
+			"area": "footer"
+		},
+		{
+			"name": "Header section",
+			"title": "Header",
+			"area": "header"
+		}
+	]
+}
