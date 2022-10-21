@@ -9,11 +9,6 @@
 			"customDuotone": true,
 			"customGradient": true,
             "palette": [
-                {
-                    "name": "Black",
-                    "slug": "black",
-                    "color": "#000000"
-                },
 				{
                     "name": "Flump",
                     "slug": "Flump",
