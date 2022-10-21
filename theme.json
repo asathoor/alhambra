@@ -1,8 +1,13 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-    "version": 2,
-    "settings": {
-        "color": {
+	"version": 2,
+	"settings": {
+		"color": {
+			"defaultPalette": true,
+			"defaultGradients": true,
+			"defaultDuotone": true,
+			"customDuotone": true,
+			"customGradient": true,
             "palette": [
                 {
                     "name": "Black",
@@ -21,41 +26,32 @@
                 }
             ]
         },
-		"blocks": {
-			"core/site-title": {
-				"typography": {
-					"fontFamilies": [
-						{
-						"fontFamily": 	"Helvetica Neue, Helvetica, Arial, sans-serif",
-						"slug": 		"helvetica-arial",
-						"name": 		"Helvetica or Arial"
-						}
-					]
+		"typography": {
+			"customFontSize": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"slug": "system-fonts",
+					"name": "System Fonts"
+				},
+				{
+					"fontFamily": "Geneva, Tahoma, Verdana, sans-serif",
+					"slug": "geneva-verdana"
 				}
-			},
-			"core/paragraph": {
-				"typography": {
-					"fontFamilies": [
-						{
-						"fontFamily": 	"Helvetica Neue, Helvetica, Arial, sans-serif",
-						"slug": 		"helvetica-arial",
-						"name": 		"Helvetica or Arial"
-						}
-					]
+			],
+			"fontSizes": [
+				{
+					"slug": "small",
+					"size": "1rem",
+					"name": "Small"
+				},
+				{
+					"slug": "extra-large",
+					"size": "3rem",
+					"name": "Extra large"
 				}
-			}
+			]
 		}
-    },
-	"templateParts": [
-		{
-			"name": "Footer section",
-			"title": "Footer",
-			"area": "footer"
-		},
-		{
-			"name": "Header section",
-			"title": "Header",
-			"area": "header"
-		}
-	]
+
+	}
 }
