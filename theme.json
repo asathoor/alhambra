@@ -8,21 +8,26 @@
 			"defaultDuotone": true,
 			"customDuotone": true,
 			"customGradient": true,
-            "palette": [
+            "palette": [ 
 				{
                     "name": "Flump",
-                    "slug": "Flump",
+                    "slug": "flump",
                     "color": "#d155c6"
                 },
 				{
                     "name": "Whitman Green",
-                    "slug": "Whitman",
+                    "slug": "whitman",
                     "color": "#a7ea9d"
                 }
             ]
         },
 		"typography": {
 			"customFontSize": true,
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"lineHeight": true,
+			"textDecoration": true,
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
