@@ -1,6 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
+	"title": "Alhambra",
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
@@ -63,6 +64,18 @@
 				}
 			]
 		}
-
-	}
+	},
+	"customTemplates": [
+		{
+			"name": "front-page",
+			"title": "The front page"
+		},
+		{
+			"name": "test-code",
+			"title": "This is a test page",
+			"postTypes": [
+				"page"
+			]
+		}
+	]
 }
