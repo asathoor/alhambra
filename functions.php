@@ -20,4 +20,31 @@ add_action(
     'themeslug_enqueue_style' 
 );
 
+// Tilføj AOS CSS og JS via CDN
+function petj_enqueue_aos_assets() {
+    // AOS CSS
+    wp_enqueue_style(
+        'aos-css',
+        'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css',
+        array(),
+        '2.3.4'
+    );
+
+    // AOS JS
+    wp_enqueue_script(
+        'aos-js',
+        'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js',
+        array(),
+        '2.3.4',
+        true // placeret i footer
+    );
+
+    // Initialiser AOS
+    wp_add_inline_script(
+        'aos-js',
+        'AOS.init();'
+    );
+}
+add_action('wp_enqueue_scripts', 'petj_enqueue_aos_assets');
+
 /** Do not add an end PHP tag at the end of this file! */
