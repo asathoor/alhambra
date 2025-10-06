@@ -1,5 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+
 	"customTemplates": [
 		{
 			"name": "front-page",
@@ -29,9 +30,9 @@
 					"slug": "flump"
 				},
 				{
-					"color": "#a7ea9d",
-					"name": "Whitman Green",
-					"slug": "whitman"
+					"color": "#ff0000",
+					"name": "Rosa Red",
+					"slug": "rosa-red"
 				},
 				{
 					"color": "#000",
@@ -149,6 +150,6 @@
 			"fontSize": "var(--wp--preset--font-size--custom-2)"
 		}
 	},
-	"title": "Alhambra",
+	"title": "Mandragora",
 	"version": 3
 }
