@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "type": "constrained",
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    },
+    "spacing": {
+      "blockGap": true,
+      "units": ["px", "em", "rem", "%", "vh", "vw"]
+    },
+    "blocks": {
+      "core/post-content": {
+        "layout": {
+          "inherit": true
+        }
+      },
+      "core/group": {
+        "layout": {
+          "type": "constrained"
+        }
+      }
+    }
+  }
+}

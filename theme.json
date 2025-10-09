@@ -1,6 +1,6 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
-  "version": 3,
+  "version": 2,
   "settings": {
     "appearanceTools": true,
     "color": {
@@ -72,6 +72,12 @@
           "radius": true,
           "style": true,
           "width": true
+        }
+      },
+      "core/post-content": {
+        "layout": {
+          "contentSize": "800px",
+          "wideSize": "1200px"
         }
       }
     }
