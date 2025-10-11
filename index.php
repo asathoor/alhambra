@@ -1,4 +1,4 @@
 <?php
 /**
-    Empty for obvious security reasons ...
+    "And the rest is silence."
 */
