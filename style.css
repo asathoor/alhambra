@@ -17,3 +17,25 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 /** The most important styles, see: theme.json */
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Flex: kolonne 2 skal øverst når der stakkes */
+@media only screen and (max-width: 800px) {
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .box :nth-child(1) {
+    order: 2;
+  } 
+  .box :nth-child(2) {
+    order: 1;
+  }
+  .box :nth-child(3) {
+    order: 3;
+  }  
+}
