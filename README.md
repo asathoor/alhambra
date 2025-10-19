@@ -1,10 +1,7 @@
-# Alhambra - a minimal viable theme for WordPress 6.+
+# Allehelgen - a WordPress Block theme
 
-This theme is made as blank as possible. When installed you'll have to add blocks to the header, footer and sidebar. Then the theme will come alive.
+In this theme I have enabled all options for the editors. Here I followed the suggestions in the handbook:
 
-So it's a theme just to get started developing themes.
+[WordPress "Theme Handbook"](https://developer.wordpress.org/themes/global-settings-and-styles/)
 
-## Export the theme
-
-Please read [this](https://learn.wordpress.org/lesson/use-the-create-block-theme-plugin-for-exports-and-theme-variations/) guide.
-
+The theme is a variant of my minimum viable WP block theme "Alhambra" (2025).
