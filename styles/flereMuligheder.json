@@ -1,5 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+	"title": "Mere fuldstændig json",
+	"description": "Baseret på HvidTekst. Men jeg har åbnet for så mange redigeringsmuligheder som muligt i denne stilvariation,",
 	"settings": {
 		"appearanceTools": true,
 		"blocks": {
@@ -119,8 +121,8 @@
 					"shadow": "6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1)"
 				},
 				{
-					"name": "Sprød",
-					"slug": "sproed",
+					"name": "Crisp",
+					"slug": "crisp",
 					"shadow": "6px 6px 0px rgba(0, 0, 0, 1)"
 				}
 			]
@@ -390,22 +392,5 @@
 			"lineHeight": "1.8"
 		}
 	},
-	"templateParts": [
-		{
-			"area": "header",
-			"name": "header",
-			"title": "Header"
-		},
-		{
-			"area": "footer",
-			"name": "footer",
-			"title": "Footer"
-		},
-		{
-			"area": "sidebar",
-			"name": "sidebar",
-			"title": "Sidebar"
-		}
-	],
 	"version": 3
 }
